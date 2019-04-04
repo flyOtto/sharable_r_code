@@ -1,1 +1,4 @@
-
+## insert the bloodstats bundle into the drat repo on local file system
+## First change location to the parent directory
+setwd("../")
+drat::insertPackage("bloodstats_0.0.1.tar.gz", "drat")
